@@ -3,7 +3,7 @@ import { useRef } from "react";
 import AboutUs from "./components/About";
 import Budget from "./components/Budget";
 import ChatZapFixed from "./components/ChatZapFixed";
-import Feed from "./components/Feed";
+// import Feed from "./components/Feed";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Scanner from "./components/Scanner";
