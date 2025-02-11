@@ -1,0 +1,20 @@
+/* Adicione estilos para o menu hambúrguer aqui */
+.md\:hidden {
+    display: none;
+    position: relative;
+    top: 50%;
+    right: 10;
+}
+
+@media (max-width: 768px) {
+    .md\:hidden {
+        display: block;
+    }
+    .md\:block {
+        ul {
+            flex-direction: column;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+    }
+}

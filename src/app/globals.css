@@ -14,8 +14,32 @@
   }
 }
 
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body::-webkit-scrollbar {
+  width: auto;
+  background-color: lightgrey;
+  
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 60px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color:#4ea6f2;
+}
+
+
